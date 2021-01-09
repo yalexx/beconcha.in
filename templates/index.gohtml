@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beconchain</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nosifer'>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<style>
+    #logo {
+        margin: 3em auto;
+    }
+    #container {
+        text-align: center
+    }
+</style>
+<body>
+
+<div id="container">
+    <header>
+        <div id="logo">
+        <svg width="80" viewBox="0 0 256 417" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path fill="#343434" d="M127.961 0l-2.795 9.5v275.668l2.795 2.79 127.962-75.638z"/><path fill="#8C8C8C" d="M127.962 0L0 212.32l127.962 75.639V154.158z"/><path fill="#3C3C3B" d="M127.961 312.187l-1.575 1.92v98.199l1.575 4.6L256 236.587z"/><path fill="#8C8C8C" d="M127.962 416.905v-104.72L0 236.585z"/><path fill="#141414" d="M127.961 287.958l127.96-75.637-127.96-58.162z"/><path fill="#393939" d="M0 212.32l127.96 75.638v-133.8z"/></svg>
+        </div>
+        <nav></nav>
+    </header>
+    <h1>
+        Ethereum Validator Notifications
+    </h1>
+    {{/* <p>{{.}}</p> */}}
+    <form action="/" method="POST">
+            <input type="text" name="email" placeholder="email" autofocus autocomplete="off">
+            <input type="password" name="password" placeholder="password" autofocus autocomplete="off">
+            <input type="submit" name="submit-btn" value="Sign in">
+    </form>
+    <br>
+    <a href="#">Register</a>
+</div>
+
+</body>
+</html>
